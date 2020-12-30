@@ -1,5 +1,5 @@
 const loginButton = document.getElementById("login-btn");
-loginButton.style.width = "auto";
+// loginButton.style.width = "auto";
 
 loginButton.addEventListener("click", function (e) {
   const modal = document.getElementById("id01");
