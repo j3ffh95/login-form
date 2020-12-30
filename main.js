@@ -1,7 +1,5 @@
-// onclick = "document.getElementById('id01').style.display='block'";
-// style = "width: auto";
-
 const loginButton = document.getElementById("login-btn");
+loginButton.style.width = "auto";
 
 loginButton.addEventListener("click", function (e) {
   const modal = document.getElementById("id01");
