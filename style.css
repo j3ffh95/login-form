@@ -58,8 +58,16 @@ img.avatar {
 }
 
 .container-content {
+  display: flex;
+  flex-direction: column;
   padding: 16px;
   text-align: center;
+}
+
+.container-content > input,
+.container-content > button {
+  width: 50%;
+  margin: 10px auto;
 }
 
 .container {
