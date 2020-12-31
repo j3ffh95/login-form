@@ -98,7 +98,7 @@ span.psw {
   background-color: #fefefe;
   margin: 0 auto;
   border: 1px solid #888;
-  width: 50%;
+  width: min(80%, 40rem);
 }
 
 /* The Close Button (x) */
