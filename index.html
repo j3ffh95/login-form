@@ -13,14 +13,10 @@
       <button id="login-btn">Login</button>
 
       <div id="modal-container" class="modal">
-        <form
-          class="modal-content animate"
-          action="/action_page.php"
-          method="post"
-        >
+        <form class="modal-content animate">
           <div class="imgcontainer">
             <span
-              onclick="document.getElementById('id01').style.display='none'"
+              onclick="document.getElementById('modal-container').style.display='none'"
               class="close"
               title="Close Modal"
               >&times;</span
@@ -28,7 +24,7 @@
             <img src="img_avatar2.png" alt="Avatar" class="avatar" />
           </div>
 
-          <div class="container">
+          <div class="container-content">
             <label for="uname"><b>Username</b></label>
             <input
               type="text"
@@ -55,7 +51,7 @@
           <div class="container" style="background-color: #f1f1f1">
             <button
               type="button"
-              onclick="document.getElementById('id01').style.display='none'"
+              onclick="document.getElementById('modal-container').style.display='none'"
               class="cancelbtn"
             >
               Cancel

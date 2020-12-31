@@ -57,6 +57,11 @@ img.avatar {
   border-radius: 50%;
 }
 
+.container-content {
+  padding: 16px;
+  text-align: center;
+}
+
 .container {
   padding: 16px;
   text-align: center;
