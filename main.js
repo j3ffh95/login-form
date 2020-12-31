@@ -1,8 +1,6 @@
-// Get the modal
+// Global variables
 const modal = document.getElementById("modal-container");
-
 const loginButton = document.getElementById("login-btn");
-// loginButton.style.width = "auto";
 
 loginButton.addEventListener("click", function (e) {
   modal.style.display = "block";
